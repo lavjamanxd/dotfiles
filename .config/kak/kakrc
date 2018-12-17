@@ -1,0 +1,2 @@
+eval %sh{kak-lsp --kakoune -s $kak-session}
+nop %sh{ (kak-lsp -s $kak_session -vvv ) > /tmp/kak-lsp.log 2>&1 < /dev/null & }

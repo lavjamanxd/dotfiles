@@ -54,7 +54,7 @@ font-1 = Material Icons:size=12;1
 
 modules-left = i3
 modules-center = mpd
-modules-right = memory cpu pulseaudio xkeyboard  wlan battery date powermenu
+modules-right = memory cpu pulseaudio xkeyboard wlan bluetooth battery date powermenu
 
 tray-position = right
 tray-padding = 1
@@ -418,6 +418,11 @@ menu-2-0 = power off
 menu-2-0-exec = sudo poweroff
 menu-2-1 = cancel
 menu-2-1-exec = menu-open-0
+
+[module/bluetooth]
+type = custom/script
+exec = ~/.config/scripts/bluetooth.sh
+interval = 5
 
 [settings]
 screenchange-reload = true
