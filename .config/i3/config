@@ -169,7 +169,7 @@ bindsym $mod+r mode "resize"
 
 exec_always --no-startup-id setxkbmap hu
 exec_always --no-startup-id feh --bg-scale $HOME/.config/bg.jpg
-exec_always --no-startup-id compton
+exec_always --no-startup-id pkill compton && compton
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 bindsym --release Control+space exec --no-startup-id rofi -show run
