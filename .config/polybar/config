@@ -17,7 +17,7 @@
 ;==========================================================
 
 [colors]
-background = #cc00000
+background = #233b3c3d
 background-alt = #fff
 foreground = #e0e1e2
 foreground-alt = #e0e1e2
@@ -228,8 +228,8 @@ format-connected = %{T2}<ramp-signal> %{T-}<label-connected>
 format-connected-underline = #9f78e1
 label-connected = %essid%
 
-format-disconnected = %{T2}
-;format-disconnected = <label-disconnected>
+label-disconnected = 
+format-disconnected = <label-disconnected>
 ;format-disconnected-underline = ${self.format-connected-underline}
 ;label-disconnected = %ifname% disconnected
 ;label-disconnected-foreground = ${colors.foreground-alt}
@@ -251,7 +251,6 @@ format-connected-prefix = " "
 format-connected-prefix-foreground = ${colors.foreground-alt}
 label-connected = %local_ip%
 
-format-disconnected =
 ;format-disconnected = <label-disconnected>
 ;format-disconnected-underline = ${self.format-connected-underline}
 ;label-disconnected = %ifname% disconnected

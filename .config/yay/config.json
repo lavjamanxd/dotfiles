@@ -1,4 +1,5 @@
 {
+	"aururl": "https://aur.archlinux.org",
 	"buildDir": "/home/lavjamanxd/.cache/yay",
 	"editor": "",
 	"editorflags": "",
@@ -33,7 +34,7 @@
 	"upgrademenu": true,
 	"cleanmenu": true,
 	"diffmenu": true,
-	"editmenu": false,
+	"editmenu": true,
 	"combinedupgrade": false,
 	"useask": false
 }
